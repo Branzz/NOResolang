@@ -3,7 +3,9 @@ Esolang with only NOR operation
 
 An esoteric programming language where the only operation you can use is NOR along with pointer shifting. Like BF, except with booleans instead of bytes. Since NOR (and NAND) is a universal gate, you can make any other logic gate out of NORs.
 
-Given an infinite line of 0s, you can use these operations:
+- - -
+
+Given an infinite line of 0 bits and a single hold bit, you can use these operations:
 
 * '<' shift pointer left
 * '>' shift pointer right
