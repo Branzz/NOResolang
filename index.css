@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+	font: 50px "Courier New", "Segoe UI";
+	color: #f0f000;
+	background: #444448;
+}
+
+.container {
+	overflow: hidden;
+}
+
+.left-sidebar {
+	margin-top: 100px;
+	width: 10%;
+	height: 100%;
+	background: hotpink;
+	position: absolute;
+}
+
+nav {
+	width: 100%;
+	font: 50px "Courier New", "Segoe UI";
+	color: black;
+	background: #f0f000;
+}
+
+nav div {
+	text-align: center;
+	top: 0px;
+	float: left;
+}
+
+nav div::selection {
+	background: blueviolet;
+	color: white;
+}
+
+.section_header {
+  position: sticky;
+  top: 0;
+  padding: 1em;
+}
+.section_content {
+	height: 1324px;
+  padding: 1em;
+  display: flex;
+  /*justify-content: center;*/
+}
+.section_content > div {
+  max-width: 992px;
+}
