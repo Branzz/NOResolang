@@ -1,7 +1,7 @@
 # NOResolang
 Esolang with only NOR operation
 
-Time worked on: Sep 2020
+Time worked on: Sep 2020, website part: Jun 2021
 
 An esoteric programming language where the only operation you can use is NOR along with pointer shifting. Like BF, except with booleans instead of bytes. Since NOR (and NAND) is a universal gate, you can make any other logic gate out of NORs.
 
