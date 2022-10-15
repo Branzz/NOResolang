@@ -20,20 +20,12 @@ Given an infinite line of 0 bits and a single hold bit, you can use these operat
 
 - - -
 
-Exmples:
+Examples:
 
-`^>^>>>>.`
+`^>^>>>>.` - Prints 0. "nor 0 with 0 to get 1, go one right, do the same, move right 4" - gives you 110000, which is 0 via ASCII
 
-"nor 0 with 0 to get 1, go one right, do the same, move right 4" - gives you 110000, which is 0 via ASCII
+`^>^>>>>.^.^<^>.^.^<^<^>>.^.^<^>.^.^<^<^<^>>>.^.` - Prints 0123456789
 
-`^>^>>>>.^.^<^>.^.^<^<^>>.^.^<^>.^.^<^<^<^>>>.^.`
+`,^<^<^<^<^<^<^>>>>>>.` - Prints input
 
-0123456789
-
-`,^<^<^<^<^<^<^>>>>>>.`
-
-prints input
-
-`,^<^<^<^<^<^>>>>>.^@^.^#`
-
-(Turing) input 1: 111...; input 0: 0; otherwise: undefined behavior
+`,^<^<^<^<^<^>>>>>.^@^.^#` - (Turing) input 1: 111...; input 0: 0; otherwise: undefined behavior
